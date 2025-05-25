@@ -27,7 +27,8 @@ VOC_YOLO/
 ├── voc.yaml
 ```
 📊 Dataset label statistics:
-<img src="images\labels.jpg" alt="Labels" width="500"/>---
+
+<img src="images\labels.jpg" alt="Labels" width="500"/>
 
 ## 🧠 Model Overview
 
@@ -83,8 +84,11 @@ model.train(
 | train10 | 78.30%    | 66.30% | 74.30%   | 55.15% ✅      |
 
 📈 **Visual analysis showed smooth convergence without overfitting.**
-<img src="images/train1-2-10.png" alt="Labels" width="500"/>---
-<img src="images/train-epoch-1-2-10.png" alt="Labels" width="500"/>---
+
+<img src="images/train1-2-10.png" alt="Labels" width="500"/>
+
+<img src="images/train-epoch-1-2-10.png" alt="Labels" width="500"/>
+
 ---
 
 ## 📊 Evaluation & Visualizations
@@ -101,6 +105,7 @@ Saved visual outputs in `runs/detect/val10/`:
 * Batch prediction visualization
 
 📌 Train1 results:
+
 <img src="images/train1-results.png" width="400"/>
 
 📌 Train10results:
@@ -114,14 +119,23 @@ Saved visual outputs in `runs/detect/val10/`:
 📌 Curve Analysis:
 
 F1-Confidence:
+
 <img src="images/val10/F1_curve.png" width="450"/>
+
 Precision-Confidence:
-<img src="images/val10//P_curve.png" width="450"/>Precision-Confidence:
+
+<img src="images/val10//P_curve.png" width="450"/>
+
 Recall-Confidence:
+
 <img src="images/val10/R_curve.png" width="450"/>
+
 Precision-Recall:
+
 <img src="images/val10/PR_curve.png" width="450"/>
+
 📌 Confusion Matrix:
+
 <img src="images/val10/confusion_matrix_normalized.png" width="550"/>
 
 
